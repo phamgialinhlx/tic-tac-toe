@@ -20,6 +20,8 @@ public:
     sf::Texture& getTexture();
     sf::Texture& getButtonTexture();
     sf::Font& getFont();
+
+    friend class ResourceManagerTest;
 };
 
 

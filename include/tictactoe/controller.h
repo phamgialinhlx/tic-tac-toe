@@ -51,6 +51,8 @@ private:
 
     // process events in the event thread
     void run();
+
+    friend class ControllerTest;
 };
 
 #endif // CONTROLLER_H

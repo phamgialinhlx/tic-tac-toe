@@ -20,4 +20,6 @@ set(headers
 
 set(test_sources
   src/game_state_test.cpp
+  src/controller_test.cpp
+  src/resource_manager_test.cpp
 )
