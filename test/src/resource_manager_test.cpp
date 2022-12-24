@@ -17,3 +17,6 @@ private:
     ResourceManager* resourceManager = new ResourceManager();
 };
 
+TEST_F(ResourceManagerTest, testGetter) {
+    TestGetter();
+}

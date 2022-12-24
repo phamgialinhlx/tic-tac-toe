@@ -587,6 +587,19 @@ controller_test_Tests/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/controller_test_Tests.dir/build.make test/CMakeFiles/controller_test_Tests.dir/build
 .PHONY : controller_test_Tests/fast
 
+#=============================================================================
+# Target rules for targets named resource_manager_test_Tests
+
+# Build rule for target.
+resource_manager_test_Tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 resource_manager_test_Tests
+.PHONY : resource_manager_test_Tests
+
+# fast build rule for target.
+resource_manager_test_Tests/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/resource_manager_test_Tests.dir/build.make test/CMakeFiles/resource_manager_test_Tests.dir/build
+.PHONY : resource_manager_test_Tests/fast
+
 src/alpha_beta.o: src/alpha_beta.cpp.o
 .PHONY : src/alpha_beta.o
 
@@ -789,6 +802,7 @@ help:
 	@echo "... NightlyUpdate"
 	@echo "... controller_test_Tests"
 	@echo "... game_state_test_Tests"
+	@echo "... resource_manager_test_Tests"
 	@echo "... tictactoe"
 	@echo "... tictactoe_LIB"
 	@echo "... src/alpha_beta.o"
